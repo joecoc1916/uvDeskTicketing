@@ -1,0 +1,233 @@
+joecoc1916@joecoc1916-Aspire-A515-51:~/Projects/uvDesk$ composer create-project uvdesk/community-skeleton helpdesk-project
+Installing uvdesk/community-skeleton (v1.0.9)
+  - Installing uvdesk/community-skeleton (v1.0.9): Downloading (100%)         
+Created project in helpdesk-project
+Loading composer repositories with package information
+Installing dependencies (including require-dev) from lock file
+Warning: The lock file is not up to date with the latest changes in composer.json. You may be getting outdated dependencies. Run update to update them.
+Package operations: 116 installs, 0 updates, 0 removals
+  - Installing ocramius/package-versions (1.4.1): Downloading (100%)         
+  - Installing symfony/flex (v1.4.8): Downloading (100%)         
+
+Prefetching 114 packages 🎶 💨
+  - Downloading (100%)
+
+  - Installing uvdesk/composer-plugin (v1.0.1): Loading from cache
+  - Installing doctrine/lexer (1.2.0): Loading from cache
+  - Installing doctrine/annotations (v1.8.0): Loading from cache
+  - Installing doctrine/reflection (v1.0.0): Loading from cache
+  - Installing doctrine/event-manager (1.1.0): Loading from cache
+  - Installing doctrine/collections (1.6.4): Loading from cache
+  - Installing doctrine/cache (1.9.0): Loading from cache
+  - Installing doctrine/persistence (1.2.0): Loading from cache
+  - Installing doctrine/inflector (1.3.1): Loading from cache
+  - Installing doctrine/common (v2.11.0): Loading from cache
+  - Installing psr/container (1.0.0): Loading from cache
+  - Installing symfony/service-contracts (v1.1.8): Loading from cache
+  - Installing symfony/polyfill-mbstring (v1.12.0): Loading from cache
+  - Installing symfony/doctrine-bridge (v4.3.8): Loading from cache
+  - Installing doctrine/doctrine-cache-bundle (1.3.5): Loading from cache
+  - Installing symfony/polyfill-php73 (v1.12.0): Loading from cache
+  - Installing symfony/polyfill-php72 (v1.12.0): Loading from cache
+  - Installing symfony/polyfill-intl-idn (v1.12.0): Loading from cache
+  - Installing symfony/mime (v4.3.8): Loading from cache
+  - Installing symfony/http-foundation (v4.3.8): Loading from cache
+  - Installing symfony/event-dispatcher-contracts (v1.1.7): Loading from cache
+  - Installing symfony/event-dispatcher (v4.3.8): Loading from cache
+  - Installing psr/log (1.1.2): Loading from cache
+  - Installing symfony/debug (v4.3.8): Loading from cache
+  - Installing symfony/http-kernel (v4.3.8): Loading from cache
+  - Installing symfony/dependency-injection (v4.3.8): Loading from cache
+  - Installing symfony/console (v4.3.8): Loading from cache
+  - Installing symfony/filesystem (v4.3.8): Loading from cache
+  - Installing symfony/config (v4.3.8): Loading from cache
+  - Installing doctrine/instantiator (1.3.0): Loading from cache
+  - Installing doctrine/dbal (v2.10.0): Loading from cache
+  - Installing doctrine/orm (v2.6.4): Loading from cache
+  - Installing symfony/routing (v4.3.8): Loading from cache
+  - Installing symfony/finder (v4.3.8): Loading from cache
+  - Installing symfony/var-exporter (v4.3.8): Loading from cache
+  - Installing psr/cache (1.0.1): Loading from cache
+  - Installing symfony/cache-contracts (v1.1.7): Loading from cache
+  - Installing symfony/cache (v4.3.8): Loading from cache
+  - Installing symfony/framework-bundle (v4.3.8): Loading from cache
+  - Installing jdorn/sql-formatter (v1.2.17): Loading from cache
+  - Installing doctrine/doctrine-bundle (1.11.2): Loading from cache
+  - Installing doctrine/data-fixtures (1.4.0): Loading from cache
+  - Installing doctrine/doctrine-fixtures-bundle (3.3.0): Loading from cache
+  - Installing symfony/stopwatch (v4.3.8): Loading from cache
+  - Installing zendframework/zend-eventmanager (3.2.1): Loading from cache
+  - Installing zendframework/zend-code (3.4.0): Loading from cache
+  - Installing ocramius/proxy-manager (2.2.3): Loading from cache
+  - Installing doctrine/migrations (2.2.0): Loading from cache
+  - Installing egulias/email-validator (2.1.11): Loading from cache
+  - Installing twig/twig (v2.12.2): Loading from cache
+  - Installing symfony/translation-contracts (v1.1.7): Loading from cache
+  - Installing symfony/translation (v4.3.8): Loading from cache
+  - Installing knplabs/knp-components (v2.2.1): Loading from cache
+  - Installing knplabs/knp-paginator-bundle (v4.0.0): Loading from cache
+  - Installing phpdocumentor/reflection-common (2.0.0): Loading from cache
+  - Installing phpdocumentor/type-resolver (1.0.1): Loading from cache
+  - Installing sensio/framework-extra-bundle (v5.5.1): Loading from cache
+  - Installing symfony/asset (v4.3.8): Loading from cache
+  - Installing symfony/dotenv (v4.3.8): Loading from cache
+  - Installing symfony/expression-language (v4.3.8): Loading from cache
+  - Installing symfony/inflector (v4.3.8): Loading from cache
+  - Installing symfony/property-access (v4.3.8): Loading from cache
+  - Installing symfony/options-resolver (v4.3.8): Loading from cache
+  - Installing symfony/intl (v4.3.8): Loading from cache
+  - Installing symfony/polyfill-intl-icu (v1.12.0): Loading from cache
+  - Installing symfony/form (v4.3.8): Loading from cache
+  - Installing symfony/http-client-contracts (v1.1.8): Loading from cache
+  - Installing symfony/http-client (v4.3.8): Loading from cache
+  - Installing monolog/monolog (1.25.2): Loading from cache
+  - Installing symfony/monolog-bridge (v4.3.8): Loading from cache
+  - Installing doctrine/doctrine-migrations-bundle (2.1.2): Loading from cache
+  - Installing symfony/orm-pack (v1.0.7): Loading from cache
+  - Installing symfony/security-core (v4.3.8): Loading from cache
+  - Installing symfony/security-http (v4.3.8): Loading from cache
+  - Installing symfony/security-guard (v4.3.8): Loading from cache
+  - Installing symfony/security-csrf (v4.3.8): Loading from cache
+  - Installing symfony/security-bundle (v4.3.8): Loading from cache
+  - Installing symfony/serializer (v4.3.8): Loading from cache
+  - Installing symfony/property-info (v4.3.8): Loading from cache
+  - Installing webmozart/assert (1.5.0): Loading from cache
+  - Installing phpdocumentor/reflection-docblock (4.3.2): Loading from cache
+  - Installing symfony/serializer-pack (v1.0.2): Loading from cache
+  - Installing swiftmailer/swiftmailer (v6.2.3): Loading from cache
+  - Installing symfony/swiftmailer-bundle (v3.4.0): Loading from cache
+  - Installing symfony/twig-bridge (v4.3.8): Loading from cache
+  - Installing symfony/validator (v4.3.8): Loading from cache
+  - Installing psr/link (1.0.0): Loading from cache
+  - Installing fig/link-util (1.0.0): Loading from cache
+  - Installing symfony/web-link (v4.3.8): Loading from cache
+  - Installing symfony/yaml (v4.3.8): Loading from cache
+  - Installing uvdesk/core-framework (v1.0.9): Loading from cache
+  - Installing uvdesk/automation-bundle (v1.0.5): Loading from cache
+  - Installing uvdesk/extension-framework (v1.0.3): Loading from cache
+  - Installing php-mime-mail-parser/php-mime-mail-parser (3.0.4): Loading from cache
+  - Installing iamcal/lib_autolink (v1.7): Loading from cache
+  - Installing uvdesk/mailbox-component (v1.0.6): Loading from cache
+  - Installing uvdesk/support-center-bundle (v1.0.5): Loading from cache
+  - Installing symfony/var-dumper (v4.3.8): Loading from cache
+  - Installing symfony/twig-bundle (v4.3.8): Loading from cache
+  - Installing symfony/web-profiler-bundle (v4.3.8): Loading from cache
+  - Installing symfony/profiler-pack (v1.0.4): Loading from cache
+  - Installing symfony/monolog-bundle (v3.5.0): Loading from cache
+  - Installing symfony/debug-bundle (v4.3.8): Loading from cache
+  - Installing easycorp/easy-log-handler (v1.0.9): Loading from cache
+  - Installing symfony/debug-pack (v1.0.7): Loading from cache
+  - Installing symfony/dom-crawler (v4.3.8): Loading from cache
+  - Installing nikic/php-parser (v4.3.0): Loading from cache
+  - Installing symfony/maker-bundle (v1.14.3): Loading from cache
+  - Installing symfony/phpunit-bridge (v4.3.8): Loading from cache
+  - Installing symfony/css-selector (v4.3.8): Loading from cache
+  - Installing symfony/browser-kit (v4.3.8): Loading from cache
+  - Installing symfony/test-pack (v1.0.6): Loading from cache
+  - Installing symfony/process (v4.3.8): Loading from cache
+  - Installing symfony/web-server-bundle (v4.3.8): Loading from cache
+Package zendframework/zend-eventmanager is abandoned, you should avoid using it. Use laminas/laminas-eventmanager instead.
+Package zendframework/zend-code is abandoned, you should avoid using it. Use laminas/laminas-code instead.
+Generating autoload files
+ocramius/package-versions:  Generating version class...
+ocramius/package-versions: ...done generating version class
+Symfony operations: 27 recipes (034defb6d489692888ce78d3c16251e0)
+  - Configuring symfony/flex (>=1.0): From github.com/symfony/recipes:master
+  - Configuring symfony/framework-bundle (>=4.2): From github.com/symfony/recipes:master
+  - Configuring doctrine/annotations (>=1.0): From github.com/symfony/recipes:master
+  - Configuring doctrine/doctrine-cache-bundle (>=1.3.5): From auto-generated recipe
+  - Configuring symfony/console (>=4.2): From github.com/symfony/recipes:master
+  - Configuring symfony/routing (>=4.2): From github.com/symfony/recipes:master
+  - Configuring doctrine/doctrine-bundle (>=1.6): From github.com/symfony/recipes:master
+  - Configuring doctrine/doctrine-fixtures-bundle (>=3.0): From github.com/symfony/recipes:master
+  - Configuring symfony/translation (>=3.3): From github.com/symfony/recipes:master
+  - Configuring knplabs/knp-paginator-bundle (>=v4.0.0): From auto-generated recipe
+  - Configuring sensio/framework-extra-bundle (>=5.2): From github.com/symfony/recipes:master
+  - Configuring doctrine/doctrine-migrations-bundle (>=1.2): From github.com/symfony/recipes:master
+  - Configuring symfony/security-bundle (>=3.3): From github.com/symfony/recipes:master
+  - Configuring symfony/swiftmailer-bundle (>=2.5): From github.com/symfony/recipes:master
+  - Configuring symfony/validator (>=4.3): From github.com/symfony/recipes:master
+  - Configuring uvdesk/core-framework (>=v1.0.9): From auto-generated recipe
+  - Configuring uvdesk/automation-bundle (>=v1.0.5): From auto-generated recipe
+  - Configuring uvdesk/extension-framework (>=v1.0.3): From auto-generated recipe
+  - Configuring uvdesk/mailbox-component (>=v1.0.6): From auto-generated recipe
+  - Configuring uvdesk/support-center-bundle (>=v1.0.5): From auto-generated recipe
+  - Configuring symfony/twig-bundle (>=3.3): From github.com/symfony/recipes:master
+  - Configuring symfony/web-profiler-bundle (>=3.3): From github.com/symfony/recipes:master
+  - Configuring symfony/monolog-bundle (>=3.3): From github.com/symfony/recipes:master
+  - Configuring symfony/debug-bundle (>=4.1): From github.com/symfony/recipes:master
+  - Configuring symfony/maker-bundle (>=1.0): From github.com/symfony/recipes:master
+  - Configuring symfony/phpunit-bridge (>=4.3): From github.com/symfony/recipes:master
+  - Configuring symfony/web-server-bundle (>=3.3): From github.com/symfony/recipes:master
+
+Package Manager: 5 package operations
+  - Configuring uvdesk/core-framework
+  - Configuring uvdesk/automation-bundle
+  - Configuring uvdesk/extension-framework
+  - Configuring uvdesk/mailbox-component
+  - Configuring uvdesk/support-center-bundle
+
+Executing script cache:clear [OK]
+Executing script assets:install public [OK]
+
+Some files may have been created or updated to configure your new packages.
+Please review, edit and commit them: these files are yours.
+
+              
+ What's next? 
+              
+
+  * Run your application:
+    1. Go to the project directory
+    2. Create your code repository with the git init command
+    3. Download the Symfony CLI at https://symfony.com/download to install a development web server
+
+  * Read the documentation at https://symfony.com/doc
+
+                        
+ Database Configuration 
+                        
+
+  * Modify your DATABASE_URL config in .env
+
+  * Configure the driver (mysql) and
+    server_version (5.7) in config/packages/doctrine.yaml
+
+              
+ How to test? 
+              
+
+  * Write test cases in the tests/ folder
+  * Run php bin/phpunit
+
+
+_   ___     ______            _       ____                                      _ _         
+| | | \ \   / /  _ \  ___  ___| | __  / ___|___  _ __ ___  _ __ ___  _   _ _ __ (_) |_ _   _ 
+| | | |\ \ / /| | | |/ _ \/ __| |/ / | |   / _ \| '_ ` _ \| '_ ` _ \| | | | '_ \| | __| | | |
+| |_| | \ V / | |_| |  __/\__ \   <  | |__| (_) | | | | | | | | | | | |_| | | | | | |_| |_| |
+ \___/   \_/  |____/ \___||___/_|\_\  \____\___/|_| |_| |_|_| |_| |_|\__,_|_| |_|_|\__|\__, |
+                                                                                       |___/ 
+
+Welcome to the UVDesk Community project! UVDesk Community is an open-source e-commerce helpdesk system
+which is built on top of reliable set of tools to provide you and your customers with the best support 
+solution possible.
+
+To start things off, here are a few commands to help you setup:
+
+  * Configuring your project:
+
+    php bin/console uvdesk:configure-helpdesk
+
+  * Run your project through a local php web server:
+
+    php bin/console server:run
+
+
+Made with 💖  by the UVDesk Team. Happy helping :)
+
+
+
+
+
+joecoc1916@joecoc1916-Aspire-A515-51:~/Projects/uvDesk$ 
+

@@ -1,0 +1,171 @@
+joecoc1916@joecoc1916-Aspire-A515-51:~/Projects/uvDesk$ git commit -m ‘First Commit';
+> ^C
+joecoc1916@joecoc1916-Aspire-A515-51:~/Projects/uvDesk$ git commit
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'joecoc1916@joecoc1916-Aspire-A515-51.(none)')
+joecoc1916@joecoc1916-Aspire-A515-51:~/Projects/uvDesk$ git config user.email "joecoc1916@protonmai.com"
+joecoc1916@joecoc1916-Aspire-A515-51:~/Projects/uvDesk$ git config user.email "joecoc1916"
+joecoc1916@joecoc1916-Aspire-A515-51:~/Projects/uvDesk$ git commit
+[master (root-commit) ea82498] On branch master
+ 100 files changed, 24394 insertions(+)
+ create mode 100755 helpdesk-project/.docker/bash/uvdesk-entrypoint.sh
+ create mode 100644 helpdesk-project/.docker/config/apache2/env
+ create mode 100644 helpdesk-project/.docker/config/apache2/httpd.conf
+ create mode 100644 helpdesk-project/.docker/config/apache2/vhost.conf
+ create mode 100644 helpdesk-project/.dockerignore
+ create mode 100644 helpdesk-project/.env
+ create mode 100644 helpdesk-project/.env.example
+ create mode 100644 helpdesk-project/.env.test
+ create mode 100644 helpdesk-project/.gitattributes
+ create mode 100644 helpdesk-project/.github/FUNDING.yml
+ create mode 100644 helpdesk-project/.github/ISSUE_TEMPLATE/Bug_report.md
+ create mode 100644 helpdesk-project/.github/ISSUE_TEMPLATE/Feature_request.md
+ create mode 100644 helpdesk-project/.github/ISSUE_TEMPLATE/Support_question.md
+ create mode 100644 helpdesk-project/.github/PULL_REQUEST_TEMPLATE.md
+ create mode 100644 helpdesk-project/.github/SECURITY.md
+ create mode 100644 helpdesk-project/.gitignore
+ create mode 100644 helpdesk-project/CHANGELOG-1.0.md
+ create mode 100644 helpdesk-project/Dockerfile
+ create mode 100644 helpdesk-project/LICENSE
+ create mode 100644 helpdesk-project/README.md
+ create mode 100644 helpdesk-project/apps/.gitignore
+ create mode 100755 helpdesk-project/bin/console
+ create mode 100755 helpdesk-project/bin/phpunit
+ create mode 100644 helpdesk-project/composer.json
+ create mode 100644 helpdesk-project/composer.lock
+ create mode 100644 helpdesk-project/config/bootstrap.php
+ create mode 100644 helpdesk-project/config/bundles.php
+ create mode 100644 helpdesk-project/config/packages/cache.yaml
+ create mode 100644 helpdesk-project/config/packages/dev/debug.yaml
+ create mode 100644 helpdesk-project/config/packages/dev/monolog.yaml
+ create mode 100644 helpdesk-project/config/packages/dev/swiftmailer.yaml
+ create mode 100644 helpdesk-project/config/packages/dev/web_profiler.yaml
+ create mode 100644 helpdesk-project/config/packages/doctrine.yaml
+ create mode 100644 helpdesk-project/config/packages/doctrine_migrations.yaml
+ create mode 100644 helpdesk-project/config/packages/framework.yaml
+ create mode 100644 helpdesk-project/config/packages/prod/doctrine.yaml
+ create mode 100644 helpdesk-project/config/packages/prod/monolog.yaml
+ create mode 100644 helpdesk-project/config/packages/prod/routing.yaml
+ create mode 100644 helpdesk-project/config/packages/routing.yaml
+ create mode 100644 helpdesk-project/config/packages/security.yaml
+ create mode 100644 helpdesk-project/config/packages/sensio_framework_extra.yaml
+ create mode 100644 helpdesk-project/config/packages/swiftmailer.yaml
+ create mode 100644 helpdesk-project/config/packages/test/framework.yaml
+ create mode 100644 helpdesk-project/config/packages/test/monolog.yaml
+ create mode 100644 helpdesk-project/config/packages/test/swiftmailer.yaml
+ create mode 100644 helpdesk-project/config/packages/test/twig.yaml
+ create mode 100644 helpdesk-project/config/packages/test/validator.yaml
+ create mode 100644 helpdesk-project/config/packages/test/web_profiler.yaml
+ create mode 100644 helpdesk-project/config/packages/translation.yaml
+ create mode 100644 helpdesk-project/config/packages/twig.yaml
+ create mode 100644 helpdesk-project/config/packages/uvdesk.yaml
+ create mode 100644 helpdesk-project/config/packages/uvdesk_extensions.yaml
+ create mode 100644 helpdesk-project/config/packages/uvdesk_mailbox.yaml
+ create mode 100644 helpdesk-project/config/packages/validator.yaml
+ create mode 100644 helpdesk-project/config/routes.yaml
+ create mode 100644 helpdesk-project/config/routes/annotations.yaml
+ create mode 100644 helpdesk-project/config/routes/dev/twig.yaml
+ create mode 100644 helpdesk-project/config/routes/dev/web_profiler.yaml
+ create mode 100644 helpdesk-project/config/services.yaml
+ create mode 100644 helpdesk-project/phpunit.xml.dist
+ create mode 100644 helpdesk-project/public/.htaccess
+ create mode 100644 helpdesk-project/public/assets/.gitignore
+ create mode 100644 helpdesk-project/public/attachments/.gitignore
+ create mode 100644 helpdesk-project/public/css/reset.css
+ create mode 100644 helpdesk-project/public/css/wizard.css
+ create mode 100644 helpdesk-project/public/favicon.ico
+ create mode 100644 helpdesk-project/public/index.php
+ create mode 100644 helpdesk-project/public/scripts/wizard.js
+ create mode 100644 helpdesk-project/src/Console/EnvironmentVariables.php
+ create mode 100644 helpdesk-project/src/Console/Wizard/ConfigureHelpdesk.php
+ create mode 100644 helpdesk-project/src/Console/Wizard/DefaultUser.php
+ create mode 100644 helpdesk-project/src/Console/Wizard/MigrateDatabase.php
+ create mode 100644 helpdesk-project/src/Controller/.gitignore
+ create mode 100644 helpdesk-project/src/Controller/BaseController.php
+ create mode 100644 helpdesk-project/src/Controller/ConfigureHelpdesk.php
+ create mode 100644 helpdesk-project/src/DataFixtures/AppFixtures.php
+ create mode 100644 helpdesk-project/src/Entity/.gitignore
+ create mode 100644 helpdesk-project/src/EventListener/ExceptionSubscriber.php
+ create mode 100644 helpdesk-project/src/Kernel.php
+ create mode 100644 helpdesk-project/src/Migrations/.gitignore
+ create mode 100644 helpdesk-project/src/Repository/.gitignore
+ create mode 100644 helpdesk-project/src/Resources/config/routes.yaml
+ create mode 100644 helpdesk-project/src/Routing/RoutingResource.php
+ create mode 100644 helpdesk-project/symfony.lock
+ create mode 100644 helpdesk-project/templates/base.html.twig
+ create mode 100644 helpdesk-project/templates/errors/error.html.twig
+ create mode 100644 helpdesk-project/templates/installation-wizard/index.html.twig
+ create mode 100644 helpdesk-project/templates/mail.html.twig
+ create mode 100644 helpdesk-project/tests/bootstrap.php
+ create mode 100644 helpdesk-project/translations/.gitignore
+ create mode 100644 helpdesk-project/translations/messages.ar.yml
+ create mode 100644 helpdesk-project/translations/messages.da.yml
+ create mode 100644 helpdesk-project/translations/messages.de.yml
+ create mode 100644 helpdesk-project/translations/messages.en.yml
+ create mode 100644 helpdesk-project/translations/messages.es.yml
+ create mode 100644 helpdesk-project/translations/messages.fr.yml
+ create mode 100644 helpdesk-project/translations/messages.it.yml
+ create mode 100644 helpdesk-project/translations/messages.tr.yml
+ create mode 100644 helpdesk-project/uvHelpScreenDump.txt
+ create mode 100644 uvHelpScreenDump.txt
+joecoc1916@joecoc1916-Aspire-A515-51:~/Projects/uvDesk$ git push origin master
+Username for 'https://github.com': joecoc1916
+Password for 'https://joecoc1916@github.com': 
+To https://github.com/joecoc1916/Project-uvDesk.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/joecoc1916/Project-uvDesk.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+joecoc1916@joecoc1916-Aspire-A515-51:~/Projects/uvDesk$ git pull README.md
+fatal: 'README.md' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+joecoc1916@joecoc1916-Aspire-A515-51:~/Projects/uvDesk$ git pull
+warning: no common commits
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/joecoc1916/Project-uvDesk
+ * [new branch]      master     -> origin/master
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> master
+
+joecoc1916@joecoc1916-Aspire-A515-51:~/Projects/uvDesk$ git pull https://github.com/joecoc1916/ Project-uvDesk
+remote: Not Found
+fatal: repository 'https://github.com/joecoc1916/' not found
+joecoc1916@joecoc1916-Aspire-A515-51:~/Projects/uvDesk$ git pull https://github.com/joecoc1916/ieNorthernstar Project-uvDesk
+Username for 'https://github.com': joecoc1916
+Password for 'https://joecoc1916@github.com': 
+remote: Repository not found.
+fatal: repository 'https://github.com/joecoc1916/ieNorthernstar/' not found
+joecoc1916@joecoc1916-Aspire-A515-51:~/Projects/uvDesk$ git pull https://github.com/joecoc1916/ieNorthernstar Project-uvDesk
+Username for 'https://github.com': joecoc1916
+Password for 'https://joecoc1916@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/joecoc1916/ieNorthernstar/'
+joecoc1916@joecoc1916-Aspire-A515-51:~/Projects/uvDesk$ 
+
